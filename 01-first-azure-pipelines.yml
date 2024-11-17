@@ -14,7 +14,7 @@ pool:
 jobs:
 - job: Job1
   steps:
-  - script: echo Hello, world, changed! Added Jobs
+  - script: echo Job1 - Hello, world, changed! Added Jobs
     displayName: 'Run a one-line script'
 
   - script: |
@@ -24,7 +24,7 @@ jobs:
     displayName: 'Run a multi-line script'
 - job: Job2
   steps:
-  - script: Jobs 2
+  - script: echo Jobs 2!
     displayName: 'Run a one-line script'
 
   

@@ -45,7 +45,7 @@ stages:
   jobs: 
   - job: ProdDeployJob
     steps:
-    - bash: echo  ($environment)DeployJOB
+    - bash: echo  $(environment)DeployJOB
 
 
 
